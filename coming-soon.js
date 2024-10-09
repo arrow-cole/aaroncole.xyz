@@ -1,5 +1,5 @@
 // Set the target launch date
-let launchDate = new Date("October 14, 2024 00:00:00").getTime();
+let launchDate = new Date("October 10, 2024 10:30:00").getTime();
 
 let countdown = setInterval(function () {
     let now = new Date().getTime();
