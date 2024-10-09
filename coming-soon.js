@@ -1,5 +1,5 @@
 // Set the target launch date
-let launchDate = new Date("December 31, 2026 23:59:59").getTime();
+let launchDate = new Date("October 14, 2024 00:00:00").getTime();
 
 let countdown = setInterval(function () {
     let now = new Date().getTime();
@@ -19,5 +19,8 @@ let countdown = setInterval(function () {
     if (timeLeft < 0) {
         clearInterval(countdown);
         document.querySelector(".countdown").innerHTML = "We're live now!";
+        
+        // Redirect to another page
+        window.location.href = "Portfolio/index.html"; // Replace with your desired URL
     }
 }, 1000);
